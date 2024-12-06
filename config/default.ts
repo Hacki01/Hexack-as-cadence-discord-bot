@@ -2,8 +2,8 @@
 import { ActivityType, PresenceUpdateStatus } from 'discord.js';
 
 export const botOptions = {
-    name: 'Cadence',
-    botInviteUrl: '',
+    name: 'Hexack',
+    botInviteUrl: 'https://discord.com/oauth2/authorize?client_id=760049660567748669',
     openSourceUrl: ''
 };
 
@@ -22,9 +22,9 @@ export const loggerOptions = {
 
 export const systemOptions = {
     // Channel for sending system messages, such as bot errors and disconnect events. e.g. '123456789012345678'
-    systemMessageChannelId: '',
+    systemMessageChannelId: '1257317443131670658',
     // Bot administrator user ID for specific notifications through mentions in system channel. e.g. '123456789012345678'
-    systemUserId: ''
+    systemUserId: '335134984035893248'
 };
 
 export const presenceStatusOptions = {
