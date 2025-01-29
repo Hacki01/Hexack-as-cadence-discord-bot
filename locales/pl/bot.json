@@ -494,32 +494,32 @@
     "statistics": {
         "botStatus": {
             "title": "{{icon}} **Bot status**",
-            "joinedServers": "**{{count}}** Joined servers",
-            "joinedServers_one": "**1** Joined server",
-            "totalMembers": "**{{count}}** Total members",
-            "releaseVersion": "**{{version}}** Release version"
+            "joinedServers": "Na **{{count}}** serwerach",
+            "joinedServers_one": "Na **1** serwerze",
+            "totalMembers": "**{{count}}** wszystkich użytkowników",
+            "releaseVersion": "Wersja **{{version}}**"
         },
         "queueStatus": {
-            "title": "{{icon}} **Queue status**",
-            "voiceConnections": "**{{count}}** Voice connections",
-            "voiceConnections_one": "**1** Voice connection",
-            "tracksInQueues": "**{{count}}** Tracks in queues",
-            "tracksInQueues_one": "**1** Track in queues",
-            "usersListening": "**{{count}}** Users listening",
-            "usersListening_one": "**1** User listening"
+            "title": "{{icon}} **Status Kolejki**",
+            "voiceConnections": "**{{count}}** połączeń głosowych",
+            "voiceConnections_one": "**1** połączenie głosowe",
+            "tracksInQueues": "**{{count}}** Utwory w kolejkach",
+            "tracksInQueues_one": "**1** utwór w kolejce",
+            "usersListening": "**{{count}}** Słuchaczy",
+            "usersListening_one": "**1** Słuchacz"
         },
         "systemStatus": {
             "title": "{{icon}} **System status**",
             "uptime": "**{{value}}** Uptime",
-            "cpu": "**{{value, number(minimumFractionDigits: 2)}}%** CPU usage",
-            "cpuDetailed": "**{{usage}}% @ {{cores}} cores** CPU usage",
+            "cpu": "**{{value, number(minimumFractionDigits: 2)}}%** zużycie procesora",
+            "cpuDetailed": "**{{usage}}% @ {{cores}} rdzeni** zużycie procesora",
             "memory": "**{{value, number}} MB** Memory usage",
-            "memoryDetailed": "**{{used, number}} / {{total, number}} MB** Memory usage",
+            "memoryDetailed": "**{{used, number}} / {{total, number}} MB** zużytej pamięci",
             "platform": "**{{value}}** Platform"
         },
         "discordStatus": {
             "title": "{{icon}} **Discord status**",
-            "apiLatency": "**{{value, number}} ms** Discord API latency"
+            "apiLatency": "**{{value, number}} ms** opóźnienie Discord API"
         },
         "dependencies": {
             "title": "{{icon}} **Dependencies**"
