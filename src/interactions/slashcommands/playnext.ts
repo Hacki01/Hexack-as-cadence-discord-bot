@@ -179,7 +179,7 @@ class PlayCommand extends BaseSlashCommandInteraction {
         const trackUrl = this.getDisplayTrackDurationAndUrl(track, translator);
 
         let embedFooter: EmbedFooterData | undefined = this.getDisplayFooterTrackPosition(
-            0,
+            1,
             translator
         );
         let message = `${translator('commands.play.addedToQueueTitle', {
