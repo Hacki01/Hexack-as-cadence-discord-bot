@@ -1,351 +1,351 @@
 {
     "autocomplete": {
-        "trackName": "{{title}} [Author: {{author}}]"
+        "trackName": "{{title}} [Autor: {{author}}]"
     },
     "commands": {
         "back": {
             "metadata": {
                 "name": "back",
-                "description": "Go back to previous track or specified position in history.",
+                "description": "Wróć do poprzedniego utworu lub określonej pozycji w historii.",
                 "options": {
                     "position": {
                         "name": "position",
-                        "description": "The position in history to go back to."
+                        "description": "Pozycja w historii, do której chcesz wrócić."
                     }
                 }
             },
-            "trackHistoryEmpty": "{{icon}} **Oops!**\nThe history is empty, add some tracks with {{playCommand}}!",
-            "trackPositionHigherThanHistoryLength_one": "{{icon}} **Oops!**\nThere is only **1** track in the history. You cannot go back to track **{{backPosition}}**.\n\nView tracks added in the history with {{historyCommand}}.",
-            "trackPositionHigherThanHistoryLength": "{{icon}} **Oops!**\nThere are only **{{count}}** tracks in the history. You cannot go back to track **{{backPosition}}**.\n\nView tracks added in the history with {{historyCommand}}.",
-            "trackReplayed": "{{icon}} **Replaying track**\n{{track}}"
+            "trackHistoryEmpty": "{{icon}} **Ups!**\nHistoria jest pusta, dodaj kilka utworów za pomocą {{playCommand}}!",
+            "trackPositionHigherThanHistoryLength_one": "{{icon}} **Ups!**\nW historii jest tylko **1** utwór. Nie możesz wrócić do utworu **{{backPosition}}**.\n\nZobacz utwory dodane do historii za pomocą {{historyCommand}}.",
+            "trackPositionHigherThanHistoryLength": "{{icon}} **Ups!**\nW historii jest tylko **{{count}}** utworów. Nie możesz wrócić do utworu **{{backPosition}}**.\n\nZobacz utwory dodane do historii za pomocą {{historyCommand}}.",
+            "trackReplayed": "{{icon}} **Odtwarzanie utworu ponownie**\n{{track}}"
         },
         "filters": {
             "metadata": {
                 "name": "filters",
-                "description": "Toggle various audio filters.",
+                "description": "Włącz lub wyłącz różne filtry audio.",
                 "options": {
                     "type": {
                         "name": "type",
-                        "description": "Audio filter type to use.",
+                        "description": "Typ filtra audio do użycia.",
                         "choices": {
                             "ffmpeg": "FFmpeg",
                             "biquad": "Biquad",
                             "equalizer": "Equalizer",
-                            "disable": "Disabled"
+                            "disable": "Wyłączone"
                         }
                     }
                 }
             },
-            "allFiltersDisabled": "{{icon}} **Disabled filters**\nAll audio filters have been disabled.",
-            "disableAllFiltersButton": "Disable all filters",
-            "nowUsingFilters": "{{icon}} **Filters toggled**\nNow using these {{mode}} filters:",
-            "selectFilterPlaceholder": "Select a filter from the menu.",
-            "selectFilterPlaceholderMany": "Select one or multiple filters.",
-            "toggleFilterInstructions": "**Toggle filters ({{provider}})**\nEnable or disable audio filters for playback from the menu."
+            "allFiltersDisabled": "{{icon}} **Filtry wyłączone**\nWszystkie filtry audio zostały wyłączone.",
+            "disableAllFiltersButton": "Wyłącz wszystkie filtry",
+            "nowUsingFilters": "{{icon}} **Filtry włączone**\nTeraz używane są następujące filtry {{mode}}:",
+            "selectFilterPlaceholder": "Wybierz filtr z menu.",
+            "selectFilterPlaceholderMany": "Wybierz jeden lub wiele filtrów.",
+            "toggleFilterInstructions": "**Przełącz filtry ({{provider}})**\nWłącz lub wyłącz filtry audio dla odtwarzania z menu."
         },
         "guilds": {
             "metadata": {
                 "name": "guilds",
-                "description": "Show the top 25 guilds by member count."
+                "description": "Pokaż 25 najlepszych serwerów według liczby członków."
             },
-            "topGuildsByMemberCount": "{{icon}} **Top {{count}} guilds by member count ({{totalCount}} total)**",
-            "totalMembers": "**Total members:** **`{{count}`**"
+            "topGuildsByMemberCount": "{{icon}} **Top {{count}} serwerów według liczby członków ({{totalCount}} łącznie)**",
+            "totalMembers": "**Łączna liczba członków:** **`{{count}}`**"
         },
         "help": {
             "metadata": {
                 "name": "help",
-                "description": "Show the list of bot commands."
+                "description": "Pokaż listę komend bota."
             },
-            "addBotButton": "Add bot",
-            "listTitle": "{{icon}} **List of commands**"
+            "addBotButton": "Dodaj bota",
+            "listTitle": "{{icon}} **Lista komend**"
         },
         "history": {
             "metadata": {
                 "name": "history",
-                "description": "Show history of tracks that have been played.",
+                "description": "Pokaż historię odtwarzanych utworów.",
                 "options": {
                     "page": {
                         "name": "page",
-                        "description": "Page number to display for the history."
+                        "description": "Numer strony do wyświetlenia historii."
                     }
                 }
             },
-            "emptyHistory": "The history is empty, add some tracks with {{playCommand}}!",
-            "invalidPageNumber_one": "{{icon}} **Oops!**\nPage **`{{page}}`** is not a valid page number.\n\nThere is only **`1`** page in the history.",
-            "invalidPageNumber": "{{icon}} **Oops!**\nPage **`{{page}}`** is not a valid page number.\n\nThere are only a total of **`{{count}}`** pages in the history.",
-            "tracksInHistoryTitle": "{{icon}} **Tracks in history**"
+            "emptyHistory": "Historia jest pusta, dodaj kilka utworów za pomocą {{playCommand}}!",
+            "invalidPageNumber_one": "{{icon}} **Ups!**\nStrona **`{{page}}`** nie jest prawidłowym numerem strony.\n\nW historii jest tylko **`1`** strona.",
+            "invalidPageNumber": "{{icon}} **Ups!**\nStrona **`{{page}}`** nie jest prawidłowym numerem strony.\n\nW historii jest tylko **`{{count}}`** stron.",
+            "tracksInHistoryTitle": "{{icon}} **Utwory w historii**"
         },
         "join": {
             "metadata": {
                 "name": "join",
-                "description": "The bot will join the voice channel if not already in one."
+                "description": "Bot dołączy do kanału głosowego, jeśli jeszcze nie jest podłączony."
             },
-            "alreadyConnected": "{{icon}} **Oops!**\nI am already connected to the {{channel}} voice channel.\n\nTo disconnect me from the channel, use the {{leaveCommand}} command.",
-            "couldNotJoin": "{{icon}} **Oops!**\nCould not join voice channel, please try again.",
-            "joinedChannel": "{{icon}} **Joined channel**\nConnected to voice channel: {{channel}}\n\nTo add tracks, use the {{playCommand}} command!"
+            "alreadyConnected": "{{icon}} **Ups!**\nJestem już podłączony do kanału głosowego {{channel}}.\n\nAby mnie odłączyć, użyj komendy {{leaveCommand}}.",
+            "couldNotJoin": "{{icon}} **Ups!**\nNie udało się dołączyć do kanału głosowego, spróbuj ponownie.",
+            "joinedChannel": "{{icon}} **Dołączono do kanału**\nPodłączono do kanału głosowego: {{channel}}\n\nAby dodać utwory, użyj komendy {{playCommand}}!"
         },
         "leave": {
             "metadata": {
                 "name": "leave",
-                "description": "Clear the queue and remove bot from voice channel."
+                "description": "Wyczyść kolejkę i usuń bota z kanału głosowego."
             },
-            "leavingChannel": "{{icon}} **Leaving channel**\nCleared the track queue and left voice channel.\n\nTo play more music, use the {{playCommand}} command!"
+            "leavingChannel": "{{icon}} **Opuszczanie kanału**\nWyczyszczono kolejkę utworów i opuszczono kanał głosowy.\n\nAby odtwarzać więcej muzyki, użyj komendy {{playCommand}}!"
         },
         "loop": {
             "metadata": {
                 "name": "loop",
-                "description": "Toggle looping a track, the whole queue or autoplay.",
+                "description": "Włącz lub wyłącz zapętlanie utworu, całej kolejki lub autoodtwarzanie.",
                 "options": {
                     "mode": {
                         "name": "mode",
-                        "description": "Loop mode: Track, queue, autoplay or disabled.",
+                        "description": "Tryb zapętlania: Utwór, kolejka, autoodtwarzanie lub wyłączone.",
                         "choices": {
-                            "0": "Off",
-                            "1": "Track",
-                            "2": "Queue",
-                            "3": "Autoplay"
+                            "0": "Wyłączone",
+                            "1": "Utwór",
+                            "2": "Kolejka",
+                            "3": "Autoodtwarzanie"
                         }
                     }
                 }
             },
-            "alreadySet": "{{icon}} **Oops!**\nLoop mode is already **`{{mode}}`**.",
-            "loopModeInformation": "{{icon}} **Current loop mode**\nThe looping mode is currently set to **`{{mode}}`**.",
-            "modeChanged": "{{icon}} **Loop mode changed**\nChanging loop mode from **`{{fromName}}`** to **`{{toName}}`**.",
-            "willAutoplay": "When the queue is empty, similar tracks will start playing!",
-            "willNoLongerPlay": "The {{mode}} will no longer play on repeat!",
-            "willNowPlay": "The {{mode}} will now play on repeat!"
+            "alreadySet": "{{icon}} **Ups!**\nTryb zapętlania jest już ustawiony na **`{{mode}}`**.",
+            "loopModeInformation": "{{icon}} **Aktualny tryb zapętlania**\nTryb zapętlania jest obecnie ustawiony na **`{{mode}}`**.",
+            "modeChanged": "{{icon}} **Tryb zapętlania zmieniony**\nZmieniono tryb zapętlania z **`{{fromName}}`** na **`{{toName}}`**.",
+            "willAutoplay": "Gdy kolejka będzie pusta, zaczną odtwarzać się podobne utwory!",
+            "willNoLongerPlay": "{{mode}} nie będzie już odtwarzany w kółko!",
+            "willNowPlay": "{{mode}} będzie teraz odtwarzany w kółko!"
         },
         "lyrics": {
             "metadata": {
                 "name": "lyrics",
-                "description": "Search Genius lyrics for current or specified track.",
+                "description": "Wyszukaj teksty utworów na Genius dla bieżącego lub określonego utworu.",
                 "options": {
                     "query": {
                         "name": "query",
-                        "description": "Search query by text or URL."
+                        "description": "Zapytanie wyszukiwania według tekstu lub URL."
                     }
                 }
             },
-            "autocompleteSearchResult": "{{title}} [Artist: {{artist}}]",
-            "lyricsEmbed": "{{icon}} **Showing lyrics**\n**Track: [{{trackTitle}}]({{trackUrl}})**\n**Artist: [{{artistName}}]({{artistUrl}})**",
-            "noLyricsFound": "{{icon}} **No lyrics found**\nThere were no Genius lyrics found for track **{{query}}**."
+            "autocompleteSearchResult": "{{title}} [Artysta: {{artist}}]",
+            "lyricsEmbed": "{{icon}} **Pokazywanie tekstu**\n**Utwór: [{{trackTitle}}]({{trackUrl}})**\n**Artysta: [{{artistName}}]({{artistUrl}})**",
+            "noLyricsFound": "{{icon}} **Nie znaleziono tekstu**\nNie znaleziono tekstu na Genius dla utworu **{{query}}**."
         },
         "move": {
             "metadata": {
                 "name": "move",
-                "description": "Move a track to a specified position in queue.",
+                "description": "Przenieś utwór na określoną pozycję w kolejce.",
                 "options": {
                     "from": {
                         "name": "from",
-                        "description": "The position of the track to move."
+                        "description": "Pozycja utworu do przeniesienia."
                     },
                     "to": {
                         "name": "to",
-                        "description": "The position to move the track to."
+                        "description": "Pozycja, na którą chcesz przenieść utwór."
                     }
                 }
             },
-            "trackMoved": "{{icon}} **Moved track**\n{{track}}\n\nTrack has been moved from position **`{{fromPosition}}`** to position **`{{toPosition}}`**.",
-            "trackPositionHigherThanQueueLength_one": "{{icon}} **Oops!**\nYou cannot move the track in position **`{{fromPosition}}`** to position **`{{toPosition}}`**. There is only **`1`** track in the queue.\n\nView tracks added to the queue with {{queueCommand}}.",
-            "trackPositionHigherThanQueueLength": "{{icon}} **Oops!**\nYou cannot move the track in position **`{{fromPosition}}`** to position **`{{toPosition}}`**. There are only **`{{count}}`** tracks in the queue.\n\nView tracks added to the queue with {{queueCommand}}."
+            "trackMoved": "{{icon}} **Przeniesiono utwór**\n{{track}}\n\nUtwór został przeniesiony z pozycji **`{{fromPosition}}`** na pozycję **`{{toPosition}}`**.",
+            "trackPositionHigherThanQueueLength_one": "{{icon}} **Ups!**\nNie możesz przenieść utworu z pozycji **`{{fromPosition}}`** na pozycję **`{{toPosition}}`**. W kolejce jest tylko **`1`** utwór.\n\nZobacz utwory dodane do kolejki za pomocą {{queueCommand}}.",
+            "trackPositionHigherThanQueueLength": "{{icon}} **Ups!**\nNie możesz przenieść utworu z pozycji **`{{fromPosition}}`** na pozycję **`{{toPosition}}`**. W kolejce jest tylko **`{{count}}`** utworów.\n\nZobacz utwory dodane do kolejki za pomocą {{queueCommand}}."
         },
         "nowplaying": {
             "metadata": {
                 "name": "nowplaying",
-                "description": "Show information about the current track."
+                "description": "Pokaż informacje o bieżącym utworze."
             },
             "embedFields": {
-                "author": "**Artist**",
-                "plays": "**Plays**",
-                "source": "**Track source**"
+                "author": "**Artysta**",
+                "plays": "**Odtworzenia**",
+                "source": "**Źródło utworu**"
             },
-            "otherTracksInQueue_one": "1 other track in the queue...",
-            "otherTracksInQueue": "{{count}} other tracks in the queue...",
-            "playCount_zero": "Unknown",
+            "otherTracksInQueue_one": "1 inny utwór w kolejce...",
+            "otherTracksInQueue": "{{count}} inne utwory w kolejce...",
+            "playCount_zero": "Nieznane",
             "playCount": "{{count, number}}"
         },
         "pause": {
             "metadata": {
                 "name": "pause",
-                "description": "Toggle pause for the current track."
+                "description": "Wstrzymaj lub wznowij bieżący utwór."
             },
-            "pauseConfirmation": "{{icon}} **Paused track**",
-            "resumeConfirmation": "{{icon}} **Resumed track**",
-            "directSource": "Direct source"
+            "pauseConfirmation": "{{icon}} **Wstrzymano utwór**",
+            "resumeConfirmation": "{{icon}} **Wznowiono utwór**",
+            "directSource": "Bezpośrednie źródło"
         },
         "play": {
             "metadata": {
                 "name": "play",
-                "description": "Add a track or playlist to the queue by search query or URL.",
+                "description": "Dodaj utwór lub playlistę do kolejki za pomocą zapytania wyszukiwania lub URL.",
                 "options": {
                     "query": {
                         "name": "query",
-                        "description": "Search query by text or URL."
+                        "description": "Zapytanie wyszukiwania według tekstu lub URL."
                     }
                 }
             },
-            "addedToQueueTitle": "{{icon}} **Added to queue**",
-            "playlistAddedTitle": "{{icon}} **Added playlist to queue**",
-            "playlistAddedTrackCount_one": "And **1** more track... Use {{queueCommand}} to view all.",
-            "playlistAddedTrackCount": "And **{{count}}** more tracks... Use {{queueCommand}} to view all.",
-            "playlistTooLarge": "{{icon}} **Playlist too large**\nThis playlist is too large to be added to the queue.\n\nThe maximum amount of tracks that can be added to the queue is **{{count}}**.",
-            "trackNotFound": "{{icon}} **No track found**\nNo results found for **{{query}}**.\n\nIf you specified a URL, please make sure it is valid and public.",
-            "footerAddedPosition": "Added to queue at position {{position}}"
+            "addedToQueueTitle": "{{icon}} **Dodano do kolejki**",
+            "playlistAddedTitle": "{{icon}} **Dodano playlistę do kolejki**",
+            "playlistAddedTrackCount_one": "I **1** więcej utwór... Użyj {{queueCommand}}, aby zobaczyć wszystkie.",
+            "playlistAddedTrackCount": "I **{{count}}** więcej utworów... Użyj {{queueCommand}}, aby zobaczyć wszystkie.",
+            "playlistTooLarge": "{{icon}} **Playlista jest zbyt duża**\nTa playlista jest zbyt duża, aby można ją było dodać do kolejki.\n\nMaksymalna liczba utworów, które można dodać do kolejki, to **{{count}}**.",
+            "trackNotFound": "{{icon}} **Nie znaleziono utworu**\nNie znaleziono wyników dla **{{query}}**.\n\nJeśli podałeś URL, upewnij się, że jest prawidłowy i publiczny.",
+            "footerAddedPosition": "Dodano do kolejki na pozycji {{position}}"
         },
         "playnext": {
             "metadata": {
                 "name": "playnext",
-                "description": "Add a track or playlist at the beginning of queue by search query or URL.",
+                "description": "Dodaj utwór lub playlistę na początek kolejki za pomocą zapytania wyszukiwania lub URL.",
                 "options": {
                     "query": {
                         "name": "query",
-                        "description": "Search query by text or URL."
+                        "description": "Zapytanie wyszukiwania według tekstu lub URL."
                     }
                 }
             },
-            "addedToQueueTitle": "{{icon}} **Added to queue**",
-            "playlistAddedTitle": "{{icon}} **Added playlist to queue**",
-            "playlistAddedTrackCount_one": "And **1** more track... Use {{queueCommand}} to view all.",
-            "playlistAddedTrackCount": "And **{{count}}** more tracks... Use {{queueCommand}} to view all.",
-            "playlistTooLarge": "{{icon}} **Playlist too large**\nThis playlist is too large to be added to the queue.\n\nThe maximum amount of tracks that can be added to the queue is **{{count}}**.",
-            "trackNotFound": "{{icon}} **No track found**\nNo results found for **{{query}}**.\n\nIf you specified a URL, please make sure it is valid and public.",
-            "footerAddedPosition": "Added to queue at position {{position}}"
+            "addedToQueueTitle": "{{icon}} **Dodano do kolejki**",
+            "playlistAddedTitle": "{{icon}} **Dodano playlistę do kolejki**",
+            "playlistAddedTrackCount_one": "I **1** więcej utwór... Użyj {{queueCommand}}, aby zobaczyć wszystkie.",
+            "playlistAddedTrackCount": "I **{{count}}** więcej utworów... Użyj {{queueCommand}}, aby zobaczyć wszystkie.",
+            "playlistTooLarge": "{{icon}} **Playlista jest zbyt duża**\nTa playlista jest zbyt duża, aby można ją było dodać do kolejki.\n\nMaksymalna liczba utworów, które można dodać do kolejki, to **{{count}}**.",
+            "trackNotFound": "{{icon}} **Nie znaleziono utworu**\nNie znaleziono wyników dla **{{query}}**.\n\nJeśli podałeś URL, upewnij się, że jest prawidłowy i publiczny.",
+            "footerAddedPosition": "Dodano do kolejki na pozycji {{position}}"
         },
         "queue": {
             "metadata": {
                 "name": "queue",
-                "description": "Show tracks that have been added to the queue.",
+                "description": "Pokaż utwory dodane do kolejki.",
                 "options": {
                     "page": {
                         "name": "page",
-                        "description": "Page number to display for the queue."
+                        "description": "Numer strony do wyświetlenia kolejki."
                     }
                 }
             },
-            "tracksInQueueTitle": "{{icon}} **Tracks in queue**",
-            "emptyQueue": "The queue is empty, add some tracks with {{playCommand}}!",
-            "estimatedDuration": "Estimated duration: {{duration}}",
-            "estimatedReallyLongTime": "Estimated duration: A really long time",
-            "invalidPageNumber_one": "{{icon}} **Oops!**\nPage **`{{page}}`** is not a valid page number.\n\nThere is only **`1`** page in the queue.",
-            "invalidPageNumber": "{{icon}} **Oops!**\nPage **`{{page}}`** is not a valid page number.\n\nThere are only a total of **`{{count}}`** pages in the queue."
+            "tracksInQueueTitle": "{{icon}} **Utwory w kolejce**",
+            "emptyQueue": "Kolejka jest pusta, dodaj kilka utworów za pomocą {{playCommand}}!",
+            "estimatedDuration": "Szacowany czas trwania: {{duration}}",
+            "estimatedReallyLongTime": "Szacowany czas trwania: Bardzo długi czas",
+            "invalidPageNumber_one": "{{icon}} **Ups!**\nStrona **`{{page}}`** nie jest prawidłowym numerem strony.\n\nW kolejce jest tylko **`1`** strona.",
+            "invalidPageNumber": "{{icon}} **Ups!**\nStrona **`{{page}}`** nie jest prawidłowym numerem strony.\n\nW kolejce jest tylko **`{{count}}`** stron."
         },
         "reload": {
             "metadata": {
                 "name": "reload",
-                "description": "Reload slash command, autocomplete and component interactions across shards."
+                "description": "Przeładuj komendy slash, autouzupełnianie i interakcje komponentów na wszystkich shardach."
             },
-            "reloadedCommands": "{{icon}} **Reloaded commands**",
-            "unableToReload": "{{icon}} **Oops!**\n_Hmm..._ It seems I am unable to reload the interaction module across shards."
+            "reloadedCommands": "{{icon}} **Przeładowano komendy**",
+            "unableToReload": "{{icon}} **Ups!**\n_Hmm..._ Wygląda na to, że nie mogę przeładować modułu interakcji na wszystkich shardach."
         },
         "remove": {
             "metadata": {
                 "name": "remove",
-                "description": "Remove tracks from the queue using certain filters.",
+                "description": "Usuń utwory z kolejki za pomocą określonych filtrów.",
                 "options": {
                     "track": {
                         "name": "track",
-                        "description": "Remove a track from the queue by position.",
+                        "description": "Usuń utwór z kolejki według pozycji.",
                         "options": {
                             "position": {
                                 "name": "position",
-                                "description": "The position in queue for the track to remove."
+                                "description": "Pozycja w kolejce utworu do usunięcia."
                             }
                         }
                     },
                     "range": {
                         "name": "range",
-                        "description": "Remove a range of tracks from the queue.",
+                        "description": "Usuń zakres utworów z kolejki.",
                         "options": {
                             "start": {
                                 "name": "start",
-                                "description": "The starting position of the range to remove."
+                                "description": "Pozycja początkowa zakresu do usunięcia."
                             },
                             "end": {
                                 "name": "end",
-                                "description": "The ending position of the range to remove."
+                                "description": "Pozycja końcowa zakresu do usunięcia."
                             }
                         }
                     },
                     "queue": {
                         "name": "queue",
-                        "description": "Remove all tracks from the queue."
+                        "description": "Usuń wszystkie utwory z kolejki."
                     },
                     "user": {
                         "name": "user",
-                        "description": "Remove all tracks added by a specific user.",
+                        "description": "Usuń wszystkie utwory dodane przez określonego użytkownika.",
                         "options": {
                             "target": {
                                 "name": "target",
-                                "description": "User whose tracks to remove."
+                                "description": "Użytkownik, którego utwory chcesz usunąć."
                             }
                         }
                     },
                     "duplicates": {
                         "name": "duplicates",
-                        "description": "Remove all duplicate tracks from the queue."
+                        "description": "Usuń wszystkie zduplikowane utwory z kolejki."
                     }
                 }
             },
-            "noTracksRemoved": "{{icon}} **No tracks removed**\nThere were no tracks removed from the queue. Please check if the option you selected has tracks to remove.",
-            "removedTrack": "{{icon}} **Removed track**",
-            "removedTracks": "{{icon}} **Removed tracks**\n**`{{count}}`** tracks were removed from the queue.",
-            "startPositionHigherThanEndPosition": "{{icon}} **Oops!**\nStart position **`{{start}}`** is higher than end position **`{{end}}`**. Please specify a valid range.\n\nView tracks added to the queue with {{queueCommand}}.",
-            "trackPositionHigherThanQueueLength_one": "{{icon}} **Oops!**\nPosition **`{{position}}`** is not a valid track position. There is only a total of **`1`** track in the queue.\n\nView the tracks added to the queue with {{queueCommand}}.",
-            "trackPositionHigherThanQueueLength": "{{icon}} **Oops!**\nPosition **`{{position}}`** is not a valid track position. There are only a total of **`{{count}}`** tracks in the queue.\n\nView the tracks added to the queue with {{queueCommand}}."
+            "noTracksRemoved": "{{icon}} **Nie usunięto utworów**\nNie usunięto żadnych utworów z kolejki. Sprawdź, czy wybrana opcja ma utwory do usunięcia.",
+            "removedTrack": "{{icon}} **Usunięto utwór**",
+            "removedTracks": "{{icon}} **Usunięto utwory**\n**`{{count}}`** utwory zostały usunięte z kolejki.",
+            "startPositionHigherThanEndPosition": "{{icon}} **Ups!**\nPozycja początkowa **`{{start}}`** jest wyższa niż pozycja końcowa **`{{end}}`**. Podaj prawidłowy zakres.\n\nZobacz utwory dodane do kolejki za pomocą {{queueCommand}}.",
+            "trackPositionHigherThanQueueLength_one": "{{icon}} **Ups!**\nPozycja **`{{position}}`** nie jest prawidłową pozycją utworu. W kolejce jest tylko **`1`** utwór.\n\nZobacz utwory dodane do kolejki za pomocą {{queueCommand}}.",
+            "trackPositionHigherThanQueueLength": "{{icon}} **Ups!**\nPozycja **`{{position}}`** nie jest prawidłową pozycją utworu. W kolejce jest tylko **`{{count}}`** utworów.\n\nZobacz utwory dodane do kolejki za pomocą {{queueCommand}}."
         },
         "seek": {
             "metadata": {
                 "name": "seek",
-                "description": "Seek to a time position in the current track.",
+                "description": "Przeskocz do określonej pozycji czasowej w bieżącym utworze.",
                 "options": {
                     "duration": {
                         "name": "duration",
-                        "description": "Timestamp in format 00:00:00 (HH:mm:ss)."
+                        "description": "Znacznik czasu w formacie 00:00:00 (HH:mm:ss)."
                     }
                 }
             },
-            "correctFormatInstruction": "{{icon}} **Oops!**\nYou entered an invalid duration format, **`{{wrongDuration}}`**.\nPlease use the format **`HH:mm:ss`**, **`mm:ss`** or **`ss`**.\n\n**Examples:**\n- {{seekCommand}} **`1:24:12`** - Seek to 1 hour, 24 minutes and 12 seconds.\n- {{seekCommand}} **`3:27`** - Seek to 3 minutes and 27 seconds.\n- {{seekCommand}} **`42`** - Seek to 42 seconds.",
-            "durationLongerThanTrackDuration": "{{icon}} **Oops!**\nYou entered **`{{wrongDuration}}`**, which is a timestamp longer than the duration of the current track.\n\nPlease try a timestamp that is less than the duration of the track (**{{trackDuration}}**).",
-            "seekingToTimestamp": "{{icon}} **Seeking to timestamp**\nSeeking to **`{{duration}}`** in current track."
+            "correctFormatInstruction": "{{icon}} **Ups!**\nWprowadziłeś nieprawidłowy format czasu, **`{{wrongDuration}}`**.\nUżyj formatu **`HH:mm:ss`**, **`mm:ss`** lub **`ss`**.\n\n**Przykłady:**\n- {{seekCommand}} **`1:24:12`** - Przeskocz do 1 godziny, 24 minut i 12 sekund.\n- {{seekCommand}} **`3:27`** - Przeskocz do 3 minut i 27 sekund.\n- {{seekCommand}} **`42`** - Przeskocz do 42 sekund.",
+            "durationLongerThanTrackDuration": "{{icon}} **Ups!**\nWprowadziłeś **`{{wrongDuration}}`**, co jest znacznikiem czasu dłuższym niż czas trwania bieżącego utworu.\n\nSpróbuj podać znacznik czasu krótszy niż czas trwania utworu (**{{trackDuration}}**).",
+            "seekingToTimestamp": "{{icon}} **Przeskakiwanie do znacznika czasu**\nPrzeskakiwanie do **`{{duration}}`** w bieżącym utworze."
         },
         "settings": {
             "metadata": {
                 "name": "settings",
-                "description": "Configure various options for bot behavior in this server.",
+                "description": "Skonfiguruj różne opcje zachowania bota na tym serwerze.",
                 "options": {
                     "bot-language": {
                         "name": "bot-language",
-                        "description": "Set the language for the bot.",
+                        "description": "Ustaw język bota.",
                         "options": {
                             "language": {
                                 "name": "language",
-                                "description": "Language to use for the bot in messages.",
+                                "description": "Język używany przez bota w wiadomościach.",
                                 "choices": {
-                                    "en-US": "English",
-                                    "no": "Norwegian",
-                                    "ro": "Romanian",
-                                    "es-ES": "Spanish"
+                                    "en-US": "Angielski",
+                                    "no": "Norweski",
+                                    "ro": "Rumuński",
+                                    "es-ES": "Hiszpański"
                                 }
                             }
                         }
                     },
                     "default-volume": {
                         "name": "default-volume",
-                        "description": "Set the default volume for the bot.",
+                        "description": "Ustaw domyślną głośność bota.",
                         "options": {
                             "percentage": {
                                 "name": "percentage",
-                                "description": "Volume percentage: From 0% to 100%."
+                                "description": "Procent głośności: Od 0% do 100%."
                             }
                         }
                     },
                     "default-search-engine": {
                         "name": "default-search-engine",
-                        "description": "Set the default search engine for the bot.",
+                        "description": "Ustaw domyślną wyszukiwarkę dla bota.",
                         "options": {
                             "provider": {
                                 "name": "provider",
-                                "description": "Search engine provider to use.",
+                                "description": "Dostawca wyszukiwarki do użycia.",
                                 "choices": {
                                     "youtube": "YouTube",
                                     "spotify": "Spotify"
@@ -355,42 +355,42 @@
                     },
                     "view": {
                         "name": "view",
-                        "description": "View the current settings for the bot."
+                        "description": "Zobacz bieżące ustawienia bota."
                     }
                 }
             },
-            "botLanguageChanged": "{{icon}} **Bot language changed**\nBot language has been changed to **`{{language}}`**.",
-            "botLanguageInformation": "{{icon}} **Bot language**\nThe bot language is currently set to **`{{language}}`**.",
-            "botLanguageError": "{{icon}} **Oops!**\nThere was an error while trying to change the bot language. Please try again later.",
-            "noDatabaseFound": "{{icon}} **Oops!**\nThere is no database found for this server. Please try again later.",
-            "errorGettingSettings": "{{icon}} **Oops!**\nThere was an error while trying to get the settings for this server. Please try again later.",
-            "invalidDefaultVolume": "{{icon}} **Oops!**\nYou cannot set the default volume to **`{{wrongVolume}}%`**, please pick a value between **`0%`** and **`100%`**.",
-            "defaultVolumeError": "{{icon}} **Oops!**\nThere was an error while trying to change the default volume. Please try again later.",
-            "defaultVolumeChanged": "{{icon}} **Default volume changed**\nDefault volume has been changed to **`{{volume}}%`**.",
-            "defaultSearchEngineError": "{{icon}} **Oops!**\nThere was an error while trying to change the default search engine. Please try again later.",
-            "defaultSearchEngineChanged": "{{icon}} **Default search engine changed**\nDefault search engine has been changed to **`{{provider}}`**."
+            "botLanguageChanged": "{{icon}} **Zmieniono język bota**\nJęzyk bota został zmieniony na **`{{language}}`**.",
+            "botLanguageInformation": "{{icon}} **Język bota**\nJęzyk bota jest obecnie ustawiony na **`{{language}}`**.",
+            "botLanguageError": "{{icon}} **Ups!**\nWystąpił błąd podczas próby zmiany języka bota. Spróbuj ponownie później.",
+            "noDatabaseFound": "{{icon}} **Ups!**\nNie znaleziono bazy danych dla tego serwera. Spróbuj ponownie później.",
+            "errorGettingSettings": "{{icon}} **Ups!**\nWystąpił błąd podczas próby pobrania ustawień dla tego serwera. Spróbuj ponownie później.",
+            "invalidDefaultVolume": "{{icon}} **Ups!**\nNie możesz ustawić domyślnej głośności na **`{{wrongVolume}}%`**, wybierz wartość między **`0%`** a **`100%`**.",
+            "defaultVolumeError": "{{icon}} **Ups!**\nWystąpił błąd podczas próby zmiany domyślnej głośności. Spróbuj ponownie później.",
+            "defaultVolumeChanged": "{{icon}} **Zmieniono domyślną głośność**\nDomyślna głośność została zmieniona na **`{{volume}}%`**.",
+            "defaultSearchEngineError": "{{icon}} **Ups!**\nWystąpił błąd podczas próby zmiany domyślnej wyszukiwarki. Spróbuj ponownie później.",
+            "defaultSearchEngineChanged": "{{icon}} **Zmieniono domyślną wyszukiwarkę**\nDomyślna wyszukiwarka została zmieniona na **`{{provider}}`**."
         },
         "shards": {
             "metadata": {
                 "name": "shards",
-                "description": "Show information about all connected shards.",
+                "description": "Pokaż informacje o wszystkich podłączonych shardach.",
                 "options": {
                     "sort": {
                         "name": "sort",
-                        "description": "What to sort the shards by.",
+                        "description": "Sortowanie shardów według.",
                         "choices": {
-                            "none": "None (Shard ID)",
-                            "memory": "Memory usage",
-                            "connections": "Voice Connections",
-                            "tracks": "Tracks",
-                            "listeners": "Listeners",
-                            "guilds": "Guilds",
-                            "members": "Members"
+                            "none": "Brak (ID Shardu)",
+                            "memory": "Zużycie pamięci",
+                            "connections": "Połączenia głosowe",
+                            "tracks": "Utwory",
+                            "listeners": "Słuchacze",
+                            "guilds": "Serwery",
+                            "members": "Członkowie"
                         }
                     },
                     "page": {
                         "name": "page",
-                        "description": "Page number to display for the shards."
+                        "description": "Numer strony do wyświetlenia shardów."
                     }
                 }
             }
@@ -398,156 +398,156 @@
         "shuffle": {
             "metadata": {
                 "name": "shuffle",
-                "description": "Randomly shuffle all tracks in the queue."
+                "description": "Losowo przetasuj wszystkie utwory w kolejce."
             },
-            "shuffledTracks": "{{icon}} **Shuffled queue tracks**\nThe **{{count}}** tracks in the queue have been shuffled.\n\nView the new queue order with {{queueCommand}}."
+            "shuffledTracks": "{{icon}} **Przetasowano utwory w kolejce**\n**{{count}}** utwory w kolejce zostały przetasowane.\n\nZobacz nową kolejność kolejki za pomocą {{queueCommand}}."
         },
         "skip": {
             "metadata": {
                 "name": "skip",
-                "description": "Skip track to next or specified position in queue.",
+                "description": "Pomiń utwór do następnego lub określonej pozycji w kolejce.",
                 "options": {
                     "position": {
                         "name": "position",
-                        "description": "The position in queue to skip to."
+                        "description": "Pozycja w kolejce, do której chcesz przejść."
                     }
                 }
             },
-            "emptyQueue": "{{icon}} **Oops!**\nThe queue is empty, add some tracks with {{playCommand}}!",
-            "skippedTrack": "{{icon}} **Skipped track**",
-            "trackPositionHigherThanQueueLength_one": "{{icon}} **Oops!**\nThere is only **1** track in the queue. You cannot skip to track **{{position}}**.\n\nView tracks added to the queue with {{queueCommand}}.",
-            "trackPositionHigherThanQueueLength": "{{icon}} **Oops!**\nThere are only **{{count}}** tracks in the queue. You cannot skip to track **{{position}}**.\n\nView tracks added to the queue with {{queueCommand}}."
+            "emptyQueue": "{{icon}} **Ups!**\nKolejka jest pusta, dodaj kilka utworów za pomocą {{playCommand}}!",
+            "skippedTrack": "{{icon}} **Pominięto utwór**",
+            "trackPositionHigherThanQueueLength_one": "{{icon}} **Ups!**\nW kolejce jest tylko **1** utwór. Nie możesz przejść do utworu **{{position}}**.\n\nZobacz utwory dodane do kolejki za pomocą {{queueCommand}}.",
+            "trackPositionHigherThanQueueLength": "{{icon}} **Ups!**\nW kolejce jest tylko **{{count}}** utworów. Nie możesz przejść do utworu **{{position}}**.\n\nZobacz utwory dodane do kolejki za pomocą {{queueCommand}}."
         },
         "status": {
             "metadata": {
                 "name": "status",
-                "description": "Show operational status of the bot."
+                "description": "Pokaż status operacyjny bota."
             },
             "openSourceButtonLabel": "GitHub"
         },
         "stop": {
             "metadata": {
                 "name": "stop",
-                "description": "Clear the queue and stop playing audio."
+                "description": "Wyczyść kolejkę i zatrzymaj odtwarzanie audio."
             },
-            "stoppedPlaying": "{{icon}} **Stopped playing**\nStopped playing the audio and cleared the track queue.\n\nTo play more music, use the {{playCommand}} command!"
+            "stoppedPlaying": "{{icon}} **Zatrzymano odtwarzanie**\nZatrzymano odtwarzanie audio i wyczyszczono kolejkę utworów.\n\nAby odtwarzać więcej muzyki, użyj komendy {{playCommand}}!"
         },
         "systemstatus": {
             "metadata": {
                 "name": "systemstatus",
-                "description": "Show operational status of the bot with additional technical information."
+                "description": "Pokaż status operacyjny bota z dodatkowymi informacjami technicznymi."
             }
         },
         "volume": {
             "metadata": {
                 "name": "volume",
-                "description": "Show or change the playback volume for tracks.",
+                "description": "Pokaż lub zmień głośność odtwarzania utworów.",
                 "options": {
                     "percentage": {
                         "name": "percentage",
-                        "description": "Volume percentage: From 1% to 100%."
+                        "description": "Procent głośności: Od 1% do 100%."
                     }
                 }
             },
-            "invalidVolumeRange": "{{icon}} **Oops!**\nYou cannot set the volume to **`{{wrongVolume}}%`**, please pick a value between **`1%`** and **`100%`**.",
-            "volumeChanged": "{{icon}} **Volume changed**\nPlayback volume has been changed to **`{{volume}}%`**.",
-            "volumeInformation": "{{icon}} **Playback volume**\nThe playback volume is currently set to **`{{volume}}`**.",
-            "volumeMuted": "{{icon}} **Audio muted**\nPlayback audio has been muted, because the volume was set to **`0%`**."
+            "invalidVolumeRange": "{{icon}} **Ups!**\nNie możesz ustawić głośności na **`{{wrongVolume}}%`**, wybierz wartość między **`1%`** a **`100%`**.",
+            "volumeChanged": "{{icon}} **Zmieniono głośność**\nGłośność odtwarzania została zmieniona na **`{{volume}}%`**.",
+            "volumeInformation": "{{icon}} **Głośność odtwarzania**\nGłośność odtwarzania jest obecnie ustawiona na **`{{volume}}`**.",
+            "volumeMuted": "{{icon}} **Wyciszono audio**\nOdtwarzanie audio zostało wyciszone, ponieważ głośność została ustawiona na **`0%`**."
         }
     },
     "components": {
         "responses": {
-            "paused": "Paused track",
-            "resumed": "Resumed track"
+            "paused": "Wstrzymano utwór",
+            "resumed": "Wznowiono utwór"
         }
     },
     "musicPlayerCommon": {
         "controls": {
-            "stop": "Stop",
-            "previous": "Previous",
-            "pause": "Pause",
-            "resume": "Resume",
-            "skip": "Skip"
+            "stop": "Zatrzymaj",
+            "previous": "Poprzedni",
+            "pause": "Wstrzymaj",
+            "resume": "Wznów",
+            "skip": "Pomiń"
         },
-        "footerPageNumber_one": "Page {{page}} of {{pageCount}} (1 track)",
-        "footerPageNumber": "Page {{page}} of {{pageCount}} ({{count}} tracks)",
-        "loopingInfo": "{{icon}} **Looping**\nLoop mode is set to **`{{loopMode}}`**. You can change it with {{loopCommand}}.\n",
-        "nowPausedTitle": "{{icon}} **Currently paused**",
-        "nowPlayingTitle": "{{icon}} **Now playing**",
-        "playingLive": "{{icon}} **`LIVE`** - Playing continuously from live source.",
+        "footerPageNumber_one": "Strona {{page}} z {{pageCount}} (1 utwór)",
+        "footerPageNumber": "Strona {{page}} z {{pageCount}} ({{count}} utworów)",
+        "loopingInfo": "{{icon}} **Zapętlanie**\nTryb zapętlania jest ustawiony na **`{{loopMode}}`**. Możesz go zmienić za pomocą {{loopCommand}}.\n",
+        "nowPausedTitle": "{{icon}} **Obecnie wstrzymane**",
+        "nowPlayingTitle": "{{icon}} **Teraz odtwarzane**",
+        "playingLive": "{{icon}} **`NA ŻYWO`** - Odtwarzanie ciągłe z źródła na żywo.",
         "queueRepeatMode": {
-            "off": "Disabled",
-            "track": "Track",
-            "queue": "Queue",
-            "autoplay": "Autoplay",
-            "set": "{{icon}} **Repeat mode**\nLoop mode is set to **{{mode}}**."
+            "off": "Wyłączone",
+            "track": "Utwór",
+            "queue": "Kolejka",
+            "autoplay": "Autoodtwarzanie",
+            "set": "{{icon}} **Tryb powtarzania**\nTryb zapętlania jest ustawiony na **{{mode}}**."
         },
-        "requestedBy": "**Requested by:** {{user}}",
-        "unavailableAuthor": "Unavailable",
-        "unavailableDuration": "_No duration available._",
-        "unavailableRequestedBy": "Unavailable",
-        "unavailableTrackTitle": "Title unavailable",
-        "unavailableTrackUrl": "**Unavailable**",
-        "unavailableSource": "Unavailable",
-        "voiceChannelInfo": "Channel: {{channel}} ({{bitrate}}kbps)"
+        "requestedBy": "**Zamówione przez:** {{user}}",
+        "unavailableAuthor": "Niedostępne",
+        "unavailableDuration": "_Brak dostępnego czasu trwania._",
+        "unavailableRequestedBy": "Niedostępne",
+        "unavailableTrackTitle": "Tytuł niedostępny",
+        "unavailableTrackUrl": "**Niedostępne**",
+        "unavailableSource": "Niedostępne",
+        "voiceChannelInfo": "Kanał: {{channel}} ({{bitrate}}kbps)"
     },
     "statistics": {
         "botStatus": {
-            "title": "{{icon}} **Bot status**",
+            "title": "{{icon}} **Status bota**",
             "joinedServers": "Na **{{count}}** serwerach",
             "joinedServers_one": "Na **1** serwerze",
             "totalMembers": "**{{count}}** wszystkich użytkowników",
             "releaseVersion": "Wersja **{{version}}**"
         },
         "queueStatus": {
-            "title": "{{icon}} **Status Kolejki**",
+            "title": "{{icon}} **Status kolejki**",
             "voiceConnections": "**{{count}}** połączeń głosowych",
             "voiceConnections_one": "**1** połączenie głosowe",
-            "tracksInQueues": "**{{count}}** Utwory w kolejkach",
+            "tracksInQueues": "**{{count}}** utwory w kolejkach",
             "tracksInQueues_one": "**1** utwór w kolejce",
-            "usersListening": "**{{count}}** Słuchaczy",
-            "usersListening_one": "**1** Słuchacz"
+            "usersListening": "**{{count}}** słuchaczy",
+            "usersListening_one": "**1** słuchacz"
         },
         "systemStatus": {
-            "title": "{{icon}} **System status**",
-            "uptime": "**{{value}}** Uptime",
+            "title": "{{icon}} **Status systemu**",
+            "uptime": "**{{value}}** Czas działania",
             "cpu": "**{{value, number(minimumFractionDigits: 2)}}%** zużycie procesora",
             "cpuDetailed": "**{{usage}}% @ {{cores}} rdzeni** zużycie procesora",
-            "memory": "**{{value, number}} MB** Memory usage",
+            "memory": "**{{value, number}} MB** Zużycie pamięci",
             "memoryDetailed": "**{{used, number}} / {{total, number}} MB** zużytej pamięci",
-            "platform": "**{{value}}** Platform"
+            "platform": "**{{value}}** Platforma"
         },
         "discordStatus": {
-            "title": "{{icon}} **Discord status**",
+            "title": "{{icon}} **Status Discord**",
             "apiLatency": "**{{value, number}} ms** opóźnienie Discord API"
         },
         "dependencies": {
-            "title": "{{icon}} **Dependencies**"
+            "title": "{{icon}} **Zależności**"
         }
     },
     "validation": {
-        "cannotJoinVoiceOrTalk": "{{icon}} **Oops!**\nI do not have permission to play audio in the voice channel {{channel}}.\n\nPlease make sure I have the **`Connect`** and **`Speak`** permissions in this voice channel.",
-        "cannotSendMessageInChannel": "{{icon}} **Oops!**\nI do not have permission to send message replies in the channel {{channel}}.\n\nPlease make sure I have the **`View Channel`** permission in this text channel.",
-        "historyDoesNotExist": "{{icon}} **Oops!**\nThere are no tracks in the history and nothing currently playing. First add some tracks with {{playCommand}}!",
-        "notInSameVoiceChannel": "{{icon}} **Not in same voice channel**\nYou need to be in the same voice channel as me to perform this action.\n\n**Voice channel:** {{channel}}",
-        "notInVoiceChannel": "{{icon}} **Not in a voice channel**\nYou need to be in a voice channel to perform this action.",
-        "notValidGuildId": "{{icon}} **Oops!**\nNo permission to perform this action.\n\nThe command {{command}} cannot be executed in this server.",
-        "queueDoesNotExist": "{{icon}} **Oops!**\nThere are no tracks in the queue and nothing currently playing. First add some tracks with {{playCommand}}!",
-        "queueIsEmpty": "{{icon}} **Oops!\nThere are no tracks added to the queue. First add some tracks with {{playCommand}}!",
-        "queueNoCurrentTrack": "{{icon}} **Oops!**\nThere is nothing currently playing. First add some tracks with {{playCommand}}!",
-        "trackNotPlayingAnymore": "{{icon}} **Oops!**\nThis track has been skipped or is no longer playing."
+        "cannotJoinVoiceOrTalk": "{{icon}} **Ups!**\nNie mam uprawnień do odtwarzania audio na kanale głosowym {{channel}}.\n\nUpewnij się, że mam uprawnienia **`Łączenie`** i **`Mówienie`** na tym kanale głosowym.",
+        "cannotSendMessageInChannel": "{{icon}} **Ups!**\nNie mam uprawnień do wysyłania wiadomości na kanale {{channel}}.\n\nUpewnij się, że mam uprawnienie **`Wyświetlanie kanału`** na tym kanale tekstowym.",
+        "historyDoesNotExist": "{{icon}} **Ups!**\nW historii nie ma żadnych utworów i nic nie jest obecnie odtwarzane. Najpierw dodaj kilka utworów za pomocą {{playCommand}}!",
+        "notInSameVoiceChannel": "{{icon}} **Nie na tym samym kanale głosowym**\nMusisz być na tym samym kanale głosowym co ja, aby wykonać tę akcję.\n\n**Kanał głosowy:** {{channel}}",
+        "notInVoiceChannel": "{{icon}} **Nie na kanale głosowym**\nMusisz być na kanale głosowym, aby wykonać tę akcję.",
+        "notValidGuildId": "{{icon}} **Ups!**\nBrak uprawnień do wykonania tej akcji.\n\nKomenda {{command}} nie może zostać wykonana na tym serwerze.",
+        "queueDoesNotExist": "{{icon}} **Ups!**\nW kolejce nie ma żadnych utworów i nic nie jest obecnie odtwarzane. Najpierw dodaj kilka utworów za pomocą {{playCommand}}!",
+        "queueIsEmpty": "{{icon}} **Ups!**\nW kolejce nie ma żadnych utworów. Najpierw dodaj kilka utworów za pomocą {{playCommand}}!",
+        "queueNoCurrentTrack": "{{icon}} **Ups!**\nNic nie jest obecnie odtwarzane. Najpierw dodaj kilka utworów za pomocą {{playCommand}}!",
+        "trackNotPlayingAnymore": "{{icon}} **Ups!**\nTen utwór został pominięty lub nie jest już odtwarzany."
     },
     "errors": {
-        "unexpectedError": "**{{icon}} Uh-oh... _Something_ went wrong!**\nThere was an unexpected error while trying to perform this action. You can try again.",
-        "footerExecutionId": "Execution ID: {{executionId}}",
-        "cannotExtractAudioStream": "**{{icon}} Oops!**\nUnable to retrieve audio for the track **[{{trackTitle}}]({{trackUrl}})**.\nThis could happen with tracks added from YouTube (and Spotify).\n-# If you encounter a lot of issues, playing audio from Soundcloud should still work fine.",
-        "cannotLoadAudioStream": "**{{icon}} Uh-oh... _Something_ went wrong!**\nIt seems there was an issue while loading stream for the track.\n\nIf you performed a command, you can try again.",
-        "cannotPlayAudioStream": "**{{icon}} Uh-oh... _Something_ went wrong!**\nIt seems there was an issue while streaming the track.\n\nIf you performed a command, you can try again.",
-        "generalPlayerError": "**{{icon}} Uh-oh... _Something_ went wrong!**\nIt seems there was an issue related to the queue or current track.\n\nIf you performed a command, you can try again."
+        "unexpectedError": "**{{icon}} Uh-oh... _Coś_ poszło nie tak!**\nWystąpił nieoczekiwany błąd podczas próby wykonania tej akcji. Możesz spróbować ponownie.",
+        "footerExecutionId": "ID wykonania: {{executionId}}",
+        "cannotExtractAudioStream": "**{{icon}} Ups!**\nNie można pobrać audio dla utworu **[{{trackTitle}}]({{trackUrl}})**.\nMoże się to zdarzyć z utworami dodanymi z YouTube (i Spotify).\n-# Jeśli napotykasz wiele problemów, odtwarzanie audio z Soundcloud powinno nadal działać poprawnie.",
+        "cannotLoadAudioStream": "**{{icon}} Uh-oh... _Coś_ poszło nie tak!**\nWygląda na to, że wystąpił problem podczas ładowania strumienia dla utworu.\n\nJeśli wykonałeś komendę, możesz spróbować ponownie.",
+        "cannotPlayAudioStream": "**{{icon}} Uh-oh... _Coś_ poszło nie tak!**\nWygląda na to, że wystąpił problem podczas strumieniowania utworu.\n\nJeśli wykonałeś komendę, możesz spróbować ponownie.",
+        "generalPlayerError": "**{{icon}} Uh-oh... _Coś_ poszło nie tak!**\nWygląda na to, że wystąpił problem związany z kolejką lub bieżącym utworem.\n\nJeśli wykonałeś komendę, możesz spróbować ponownie."
     },
     "systemMessages": {
-        "playerSkipError": "{{icon}} **player.events.on('playerSkip')**\nTrack URL: {{trackUrl}}\n\n<@{{userId}}>",
-        "playerError": "{{icon}} **player.events.on('playerError')**\nMessage: {{message}}\n\n<@{{userId}}>",
-        "generalPlayerError": "{{icon}} **player.events.on('error')**\nMessage: {{message}}\n\n<@{{userId}}>"
+        "playerSkipError": "{{icon}} **player.events.on('playerSkip')**\nURL utworu: {{trackUrl}}\n\n<@{{userId}}>",
+        "playerError": "{{icon}} **player.events.on('playerError')**\nWiadomość: {{message}}\n\n<@{{userId}}>",
+        "generalPlayerError": "{{icon}} **player.events.on('error')**\nWiadomość: {{message}}\n\n<@{{userId}}>"
     }
 }

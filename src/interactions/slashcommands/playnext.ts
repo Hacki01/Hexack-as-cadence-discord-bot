@@ -123,16 +123,18 @@ class PlayCommand extends BaseSlashCommandInteraction {
             }));
 
             const queue = useQueue(interaction.guild!.id)!;
-            
-            if (searchResult.playlist) {
-                // Move each track from playlist to beginning
-                const trackCount = searchResult.tracks.length;
-                for (let i = 0; i < trackCount; i++) {
+            // Move only if there are other tracks in queue
+            if (queue.tracks.data.length > 1) {
+                if (searchResult.playlist) {
+                    // Move each track from playlist to beginning
+                    const trackCount = searchResult.tracks.length;
+                    for (let i = 0; i < trackCount; i++) {
+                        await queue.node.move(queue.size - 1, 0);
+                    }
+                } else if (track) {
+                    // Move single track to beginning
                     await queue.node.move(queue.size - 1, 0);
                 }
-            } else if (track) {
-                // Move single track to beginning
-                await queue.node.move(queue.size - 1, 0);
             }
 
             return track;
