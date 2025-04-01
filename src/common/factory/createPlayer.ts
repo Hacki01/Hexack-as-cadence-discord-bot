@@ -19,15 +19,14 @@ export const createPlayer = async ({ client, executionId }: CreatePlayerParams):
             skipFFmpeg: false,
         });
 
-        function getAuthArrayFromEnv(): string[] {
-            return Object.keys(process.env)
-                .filter((v) => v.startsWith('YT_EXTRACTOR_AUTH'))
-                .map((k) => process.env[k])
-                .filter((v) => v !== undefined);
-        }
-
         // First load the default extractors
         await player.extractors.loadMulti([YoutubeiExtractor, SoundCloudExtractor, SpotifyExtractor]);
+
+
+        // Load the Youtubei extractor with authentication if provided
+        await player.extractors.register(YoutubeiExtractor, {
+            authentication: process.env.YT_EXTRACTOR_AUTH || '',
+        });
 
         // make player accessible from anywhere in the application
         // primarily to be able to use it in broadcastEval and other sharding methods
