@@ -50,7 +50,8 @@ async function fetchPlayerStatisticsPerShard(client?: Client): Promise<PlayerSta
 
     try {
         const playerStatisticsPerShard: PlayerStatistics[] = await client.shard.broadcastEval(() => {
-            return player.generateStatistics();
+            const statistics = player.generateStatistics();
+            return { ...statistics, instances: 1 }; // Add the 'instances' property
         });
         return playerStatisticsPerShard;
     } catch (error: unknown) {

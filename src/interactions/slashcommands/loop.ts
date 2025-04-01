@@ -47,7 +47,7 @@ class LoopCommand extends BaseSlashCommandInteraction {
             checkQueueExists
         ]);
 
-        const userInputRepeatMode: QueueRepeatMode = interaction.options.getInteger('mode')!;
+        const userInputRepeatMode: QueueRepeatMode = interaction.options.getInteger('mode')! as QueueRepeatMode;
         const currentRepeatMode: QueueRepeatMode = queue.repeatMode;
 
         if (!userInputRepeatMode && userInputRepeatMode !== 0) {
