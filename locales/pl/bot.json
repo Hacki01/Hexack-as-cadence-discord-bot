@@ -224,8 +224,8 @@
             },
             "tracksInQueueTitle": "{{icon}} **Utwory w kolejce**",
             "emptyQueue": "Kolejka jest pusta, dodaj kilka utworów za pomocą {{playCommand}}!",
-            "estimatedDuration": "Szacowany czas trwania: {{duration}}",
-            "estimatedReallyLongTime": "Szacowany czas trwania: Bardzo długi czas",
+            "estimatedDuration": "Czas trwania: {{duration}}",
+            "estimatedReallyLongTime": "Czas trwania: Bardzo długi czas",
             "invalidPageNumber_one": "{{icon}} **Ups!**\nStrona **`{{page}}`** nie jest prawidłowym numerem strony.\n\nW kolejce jest tylko **`1`** strona.",
             "invalidPageNumber": "{{icon}} **Ups!**\nStrona **`{{page}}`** nie jest prawidłowym numerem strony.\n\nW kolejce jest tylko **`{{count}}`** stron."
         },
@@ -482,7 +482,7 @@
             "autoplay": "Autoodtwarzanie",
             "set": "{{icon}} **Tryb powtarzania**\nTryb zapętlania jest ustawiony na **{{mode}}**."
         },
-        "requestedBy": "**Zamówione przez:** {{user}}",
+        "requestedBy": "**Dodane przez:** {{user}}",
         "unavailableAuthor": "Niedostępne",
         "unavailableDuration": "_Brak dostępnego czasu trwania._",
         "unavailableRequestedBy": "Niedostępne",

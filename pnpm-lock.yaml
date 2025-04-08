@@ -18,17 +18,31 @@ importers:
         specifier: ^3.3.12
         version: 3.3.12
       discord-player:
+<<<<<<< Updated upstream
         specifier: ^7.1.0
         version: 7.1.0(@discord-player/extractor@4.5.1)(mediaplex@0.0.9)(yaml@2.5.0)
       discord-player-youtubei:
         specifier: 1.4.3
         version: 1.4.3
+=======
+        specifier: ^6.7.1
+        version: 6.7.1(@discord-player/extractor@4.5.1)(ffmpeg-static@5.2.0)
+      discord-player-youtubei:
+        specifier: 1.4.5
+        version: 1.4.5
+>>>>>>> Stashed changes
       discord.js:
         specifier: ^14.16.1
         version: 14.16.1
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
+      ffmpeg-static:
+        specifier: ^5.2.0
+        version: 5.2.0
+      fluent-ffmpeg:
+        specifier: ^2.1.3
+        version: 2.1.3
       i18next:
         specifier: ^23.14.0
         version: 23.14.0
@@ -47,9 +61,12 @@ importers:
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.5.2)(typescript@5.5.4)
+<<<<<<< Updated upstream
       youtubei.js:
         specifier: ^13.3.0
         version: 13.3.0
+=======
+>>>>>>> Stashed changes
     devDependencies:
       '@types/config':
         specifier: ^3.3.4
@@ -115,8 +132,17 @@ packages:
     resolution: {integrity: sha512-UJnjoFsmxfKUdNYdWgOB0mWUypuLvAfQPH1+pyvRJs6euowbFkFC6P13w1l8mJyi3vxYMxc9kld5jZEGRQs6bw==}
     engines: {node: '>=18'}
 
+<<<<<<< Updated upstream
   '@discord-player/equalizer@7.1.0':
     resolution: {integrity: sha512-bF5MRDDcm0BeZbTHMcG3UHdTZKHC7w21iEqrjt89KDzis6qz9oRsRWIG1w0NH3UYSCf1X3jdS/WiKdMqGHmmiA==}
+=======
+  '@derhuerst/http-basic@8.2.4':
+    resolution: {integrity: sha512-F9rL9k9Xjf5blCz8HsJRO4diy111cayL2vkY2XE4r4t3n0yPXVYy3KD3nJ1qbrSn9743UWSXH4IwuCa/HWlGFw==}
+    engines: {node: '>=6.0.0'}
+
+  '@discord-player/equalizer@0.2.3':
+    resolution: {integrity: sha512-71UAepYMbHTg2QQLXQAgyuXYHrgAYpJDxjg9dRWfTUNf+zfOAlyJEiRRk/WFhQyGu6m23iLR/H/JxgF4AW8Csg==}
+>>>>>>> Stashed changes
 
   '@discord-player/extractor@4.5.1':
     resolution: {integrity: sha512-krsgdHD7sx4SWHKkIFDPcgYXR21EfleW0bjI6WvnJQbvTg9TZ4aYw77G6UVw/HaF7i3u3WuyGPZp1UqG0FRHaw==}
@@ -477,6 +503,9 @@ packages:
   '@types/node-os-utils@1.3.4':
     resolution: {integrity: sha512-BCUYrbdoO4FUbx6MB9atLNFnkxdliFaxdiTJMIPPiecXIApc5zf4NIqV5G1jWv/ReZvtYyHLs40RkBjHX+vykA==}
 
+  '@types/node@10.17.60':
+    resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
+
   '@types/node@22.5.2':
     resolution: {integrity: sha512-acJsPTEqYqulZS/Yp/S3GgeE6GZ0qYODUR8aVr/DkhHQ8l9nd4j5x1/ZJy9/gHrRlFMqkO6i0I3E27Alu4jjPg==}
 
@@ -504,10 +533,18 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
+<<<<<<< Updated upstream
+=======
+  agent-base@6.0.2:
+    resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
+    engines: {node: '>= 6.0.0'}
+
+>>>>>>> Stashed changes
   agent-base@7.1.3:
     resolution: {integrity: sha512-jRR5wdylq8CkOe6hei19GGZnxM6rBGwFl3Bg0YItGDimvjGtAvdZk4Pu6Cl4u4Igsws4a1fd1Vq3ezrhn4KmFw==}
     engines: {node: '>= 14'}
 
+<<<<<<< Updated upstream
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -530,6 +567,14 @@ packages:
   arg@4.1.3:
     resolution: {integrity: sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==}
 
+=======
+  arg@4.1.3:
+    resolution: {integrity: sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==}
+
+  async@0.2.10:
+    resolution: {integrity: sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==}
+
+>>>>>>> Stashed changes
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
@@ -549,12 +594,18 @@ packages:
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
 
+<<<<<<< Updated upstream
   brace-expansion@2.0.1:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+=======
+  buffer-from@1.1.2:
+    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
+>>>>>>> Stashed changes
 
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
 
+<<<<<<< Updated upstream
   bundle-require@5.1.0:
     resolution: {integrity: sha512-3WrrOuZiyaaZPWiEt4G3+IffISVC9HYlWueJEBWED4ZH4aIAC2PnkdnuRrR94M+w6yGWn4AglWtJtBI8YqvgoA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -565,10 +616,13 @@ packages:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
 
+=======
+>>>>>>> Stashed changes
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
     engines: {node: '>= 0.4'}
 
+<<<<<<< Updated upstream
   chokidar@4.0.3:
     resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
     engines: {node: '>= 14.16.0'}
@@ -579,6 +633,10 @@ packages:
 
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+=======
+  caseless@0.12.0:
+    resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
+>>>>>>> Stashed changes
 
   colorette@2.0.20:
     resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
@@ -587,9 +645,15 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
+<<<<<<< Updated upstream
   commander@4.1.1:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
     engines: {node: '>= 6'}
+=======
+  concat-stream@2.0.0:
+    resolution: {integrity: sha512-MWufYdFw53ccGjCA+Ol7XJYpAlW6/prSMzuPOTRnJGcGzuhLn4Scrz7qf6o8bROZ514ltazcIFJZevcfbo0x7A==}
+    engines: {'0': node >= 6.0}
+>>>>>>> Stashed changes
 
   config@3.3.12:
     resolution: {integrity: sha512-Vmx389R/QVM3foxqBzXO8t2tUikYZP64Q6vQxGrsMpREeJc/aWRnPRERXWsYzOHAumx/AOoILWe6nU3ZJL+6Sw==}
@@ -654,8 +718,13 @@ packages:
   discord-api-types@0.37.97:
     resolution: {integrity: sha512-No1BXPcVkyVD4ZVmbNgDKaBoqgeQ+FJpzZ8wqHkfmBnTZig1FcH3iPPersiK1TUIAzgClh2IvOuVUYfcWLQAOA==}
 
+<<<<<<< Updated upstream
   discord-player-youtubei@1.4.3:
     resolution: {integrity: sha512-MbA5cDkYUTMWWOIBZjOvf33OVXq5iDhoDv+uQecsBTwNBCxgmf8KXqQQl7YUyPPaULS+97sGESSDDpr+6LK2Jw==}
+=======
+  discord-player-youtubei@1.4.5:
+    resolution: {integrity: sha512-IN9MSrECnCJLMs9GjD2oVyXKL1OFtZ0rQHidUUVOFzLoAY5cktzE+4exoquyQTk+NKtUygOX7ihcRmVPktOqJA==}
+>>>>>>> Stashed changes
     hasBin: true
 
   discord-player@7.1.0:
@@ -692,6 +761,7 @@ packages:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
     engines: {node: '>= 0.4'}
 
+<<<<<<< Updated upstream
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
@@ -701,6 +771,8 @@ packages:
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
 
+=======
+>>>>>>> Stashed changes
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
@@ -708,6 +780,13 @@ packages:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
 
+<<<<<<< Updated upstream
+=======
+  env-paths@2.2.1:
+    resolution: {integrity: sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==}
+    engines: {node: '>=6'}
+
+>>>>>>> Stashed changes
   es-define-property@1.0.1:
     resolution: {integrity: sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==}
     engines: {node: '>= 0.4'}
@@ -724,11 +803,14 @@ packages:
     resolution: {integrity: sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==}
     engines: {node: '>= 0.4'}
 
+<<<<<<< Updated upstream
   esbuild@0.25.2:
     resolution: {integrity: sha512-16854zccKPnC+toMywC+uKNeYSv+/eXkevRAfwRD/G9Cleq66m8XFIrigkbvauLLlCfDL45Q2cWegSg53gGBnQ==}
     engines: {node: '>=18'}
     hasBin: true
 
+=======
+>>>>>>> Stashed changes
   event-target-shim@5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
     engines: {node: '>=6'}
@@ -762,13 +844,23 @@ packages:
     resolution: {integrity: sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==}
     engines: {node: ^12.20 || >= 14.13}
 
+  ffmpeg-static@5.2.0:
+    resolution: {integrity: sha512-WrM7kLW+do9HLr+H6tk7LzQ7kPqbAgLjdzNE32+u3Ff11gXt9Kkkd2nusGFrlWMIe+XaA97t+I8JS7sZIrvRgA==}
+    engines: {node: '>=16'}
+
   file-type@16.5.4:
     resolution: {integrity: sha512-/yFHK0aGjFEgDJjEKP0pWCplsPFPhwyfwevf/pVxiN0tmE4L9LmwWxWukdJSHdoCli4VgQLehjJtwQBnqmsKcw==}
     engines: {node: '>=10'}
 
+<<<<<<< Updated upstream
   foreground-child@3.3.1:
     resolution: {integrity: sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==}
     engines: {node: '>=14'}
+=======
+  fluent-ffmpeg@2.1.3:
+    resolution: {integrity: sha512-Be3narBNt2s6bsaqP6Jzq91heDgOEaDCJAXcE3qcma/EJBSy5FB4cvO31XBInuAuKBx8Kptf8dkhjK0IOru39Q==}
+    engines: {node: '>=18'}
+>>>>>>> Stashed changes
 
   form-data@4.0.2:
     resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
@@ -778,11 +870,14 @@ packages:
     resolution: {integrity: sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==}
     engines: {node: '>=12.20.0'}
 
+<<<<<<< Updated upstream
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+=======
+>>>>>>> Stashed changes
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
 
@@ -797,10 +892,13 @@ packages:
     resolution: {integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==}
     engines: {node: '>= 0.4'}
 
+<<<<<<< Updated upstream
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
 
+=======
+>>>>>>> Stashed changes
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
@@ -835,6 +933,16 @@ packages:
     resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
     engines: {node: '>= 14'}
 
+<<<<<<< Updated upstream
+=======
+  http-response-object@3.0.2:
+    resolution: {integrity: sha512-bqX0XTF6fnXSQcEJ2Iuyr75yVakyjIDCqroJQ/aHfSdlM743Cwqoi2nDYMzLGWUcuTWGWy8AAvOKXTfiv6q9RA==}
+
+  https-proxy-agent@5.0.1:
+    resolution: {integrity: sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==}
+    engines: {node: '>= 6'}
+
+>>>>>>> Stashed changes
   https-proxy-agent@7.0.6:
     resolution: {integrity: sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==}
     engines: {node: '>= 14'}
@@ -859,10 +967,13 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
+<<<<<<< Updated upstream
   is-fullwidth-code-point@3.0.0:
     resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
 
+=======
+>>>>>>> Stashed changes
   is-potential-custom-element-name@1.0.1:
     resolution: {integrity: sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==}
 
@@ -872,9 +983,12 @@ packages:
   isomorphic-unfetch@4.0.2:
     resolution: {integrity: sha512-1Yd+CF/7al18/N2BDbsLBcp6RO3tucSW+jcLq24dqdX5MNbCNTw1z4BsGsp4zNmjr/Izm2cs/cEqZPp4kvWSCA==}
 
+<<<<<<< Updated upstream
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
 
+=======
+>>>>>>> Stashed changes
   jintr@3.3.0:
     resolution: {integrity: sha512-ZsaajJ4Hr5XR0tSPhOZOTjFhxA0qscKNSOs41NRjx7ZOGwpfdp8NKIBEUtvUPbA37JXyv1sJlgeOOZHjr3h76Q==}
 
@@ -1006,6 +1120,7 @@ packages:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
 
+<<<<<<< Updated upstream
   minimatch@9.0.5:
     resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -1023,6 +1138,14 @@ packages:
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
+=======
+  minimist@1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+
+  ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+
+>>>>>>> Stashed changes
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
@@ -1052,10 +1175,13 @@ packages:
   nwsapi@2.2.20:
     resolution: {integrity: sha512-/ieB+mDe4MrrKMT8z+mQL8klXydZWGR5Dowt4RAGKbJ3kIGEx3X4ljUo+6V73IXtUPWgfOlU5B9MlGxFO5T+cA==}
 
+<<<<<<< Updated upstream
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
 
+=======
+>>>>>>> Stashed changes
   on-exit-leak-free@2.1.2:
     resolution: {integrity: sha512-0eJJY6hXLGf1udHwfNftBqH+g73EU4B504nZeKpz1sYRKafAghwxEJunB2O7rDZkL4PGfsMVnTXZ2EjibbqcsA==}
     engines: {node: '>=14.0.0'}
@@ -1063,12 +1189,18 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
+<<<<<<< Updated upstream
   package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
+=======
+  parse-cache-control@1.0.1:
+    resolution: {integrity: sha512-60zvsJReQPX5/QP0Kzfd/VrpjScIQ7SHBW6bFCYfEP+fp0Eppr1SHhIO5nd1PjZtvclzSzES9D/p5nFJurwfWg==}
+>>>>>>> Stashed changes
 
   parse5@7.2.1:
     resolution: {integrity: sha512-BuBYQYlv1ckiPdQi/ohiivi9Sagc9JG+Ozs0r7b/0iK3sKmrb0b9FdWdBbOdx6hBCM/F9Ir82ofnBhtZOjCRPQ==}
 
+<<<<<<< Updated upstream
   path-key@3.1.1:
     resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
     engines: {node: '>=8'}
@@ -1077,6 +1209,8 @@ packages:
     resolution: {integrity: sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==}
     engines: {node: '>=16 || 14 >=14.18'}
 
+=======
+>>>>>>> Stashed changes
   peek-readable@4.1.0:
     resolution: {integrity: sha512-ZI3LnwUv5nOGbQzD9c2iDG6toheuXSZP5esSHBjopsXH4dg19soufvpUGA3uohi5anFtGb2lhAVdHzH6R/Evvg==}
     engines: {node: '>=8'}
@@ -1131,6 +1265,10 @@ packages:
     resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
     engines: {node: '>= 0.6.0'}
 
+  progress@2.0.3:
+    resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
+    engines: {node: '>=0.4.0'}
+
   pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
 
@@ -1171,11 +1309,14 @@ packages:
   reverbnation-scraper@2.0.0:
     resolution: {integrity: sha512-t1Mew5QC9QEVEry5DXyagvci2O+TgXTGoMHbNoW5NRz6LTOzK/DLHUpnrQwloX8CVX5z1a802vwHM3YgUVOvKg==}
 
+<<<<<<< Updated upstream
   rollup@4.38.0:
     resolution: {integrity: sha512-5SsIRtJy9bf1ErAOiFMFzl64Ex9X5V7bnJ+WlFMb+zmP459OSWCEG7b0ERZ+PEU7xPt4OG3RHbrp1LJlXxYTrw==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
+=======
+>>>>>>> Stashed changes
   rrweb-cssom@0.8.0:
     resolution: {integrity: sha512-guoltQEx+9aMf2gDZ0s62EcV8lsXR+0w8915TC3ITdn2YueuNjdAYh/levpU9nFaoChh9RUS5ZdQMrKfVEN9tw==}
 
@@ -1257,6 +1398,7 @@ packages:
     resolution: {integrity: sha512-fZtbhtvI9I48xDSywd/somNqgUHl2L2cstmXCCif0itOf96jeW18MBSyrLuNicYQVkvpOxkZtkzujiTJ9LW5Jw==}
     engines: {node: '>=10'}
 
+<<<<<<< Updated upstream
   sucrase@3.35.0:
     resolution: {integrity: sha512-8EbVDiu9iN/nESwxeSxDKe0dunta1GOlHufmSSXxMD2z2/tMZpDMpvXQGsc+ajGo8y2uYUmixaSRUc/QPoQ0GA==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -1272,12 +1414,18 @@ packages:
   thenify@3.3.1:
     resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==}
 
+=======
+  symbol-tree@3.2.4:
+    resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
+
+>>>>>>> Stashed changes
   thread-stream@3.1.0:
     resolution: {integrity: sha512-OqyPZ9u96VohAyMfJykzmivOrY2wfMSf3C5TtFJVgN+Hm6aj+voFhlK+kZEIv2FBh1X6Xp3DlnCOfEQ3B2J86A==}
 
   tiny-typed-emitter@2.1.0:
     resolution: {integrity: sha512-qVtvMxeXbVej0cQWKqVSSAHmKZEHAvxdF8HEUBFWts8h+xEo5m/lEiPakuyZ3BnCBjOD8i24kzNOiOLLgsSxhA==}
 
+<<<<<<< Updated upstream
   tinyexec@0.3.2:
     resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
 
@@ -1285,6 +1433,8 @@ packages:
     resolution: {integrity: sha512-qkf4trmKSIiMTs/E63cxH+ojC2unam7rJ0WrauAzpT3ECNTxGRMlaXxVbfxMUC/w0LaYk6jQ4y/nGR9uBO3tww==}
     engines: {node: '>=12.0.0'}
 
+=======
+>>>>>>> Stashed changes
   tldts-core@6.1.85:
     resolution: {integrity: sha512-DTjUVvxckL1fIoPSb3KE7ISNtkWSawZdpfxGxwiIrZoO6EbHVDXXUIlIuWympPaeS+BLGyggozX/HTMsRAdsoA==}
 
@@ -1303,13 +1453,17 @@ packages:
   tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
 
+<<<<<<< Updated upstream
   tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
 
+=======
+>>>>>>> Stashed changes
   tr46@5.1.0:
     resolution: {integrity: sha512-IUWnUK7ADYR5Sl1fZlO1INDUhVhatWl7BtJWsIhwJ0UAK7ilzzIa8uIqOO/aYVWHZPJkKbEL+362wrzoeRF7bw==}
     engines: {node: '>=18'}
 
+<<<<<<< Updated upstream
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
@@ -1317,6 +1471,8 @@ packages:
   ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
+=======
+>>>>>>> Stashed changes
   ts-mixer@6.0.4:
     resolution: {integrity: sha512-ufKpbmrugz5Aou4wcr5Wc1UUFWOLhq+Fm6qa6P0w0K5Qw2yhaUoiWszhCVuNQyNwrlGiscHOmqYoAox1PtvgjA==}
 
@@ -1337,6 +1493,7 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
+<<<<<<< Updated upstream
   tsup@8.4.0:
     resolution: {integrity: sha512-b+eZbPCjz10fRryaAA7C8xlIHnf8VnsaRqydheLIqwG/Mcpfk8Z5zp3HayX7GaTygkigHl5cBUs+IhcySiIexQ==}
     engines: {node: '>=18'}
@@ -1355,6 +1512,10 @@ packages:
         optional: true
       typescript:
         optional: true
+=======
+  typedarray@0.0.6:
+    resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
+>>>>>>> Stashed changes
 
   typescript@5.5.4:
     resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
@@ -1376,8 +1537,13 @@ packages:
     resolution: {integrity: sha512-U8uCCl2x9TK3WANvmBavymRzxbfFYG+tAu+fgx3zxQy3qdagQqBLwJVrdyO1TBfUXvfKveMKJZhpvUYoOjM+4g==}
     engines: {node: '>=18.17'}
 
+<<<<<<< Updated upstream
   undici@7.6.0:
     resolution: {integrity: sha512-gaFsbThjrDGvAaD670r81RZro/s6H2PVZF640Qn0p5kZK+/rim7/mmyfp2W7VB5vOMaFM8vuFBJUaMlaZTYHlA==}
+=======
+  undici@7.7.0:
+    resolution: {integrity: sha512-tZ6+5NBq4KH35rr46XJ2JPFKxfcBlYNaqLF/wyWIO9RMHqqU/gx/CLB1Y2qMcgB8lWw/bKHa7qzspqCN7mUHvA==}
+>>>>>>> Stashed changes
     engines: {node: '>=20.18.1'}
 
   unfetch@5.0.0:
@@ -1400,9 +1566,12 @@ packages:
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
 
+<<<<<<< Updated upstream
   webidl-conversions@4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}
 
+=======
+>>>>>>> Stashed changes
   webidl-conversions@7.0.0:
     resolution: {integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==}
     engines: {node: '>=12'}
@@ -1422,6 +1591,7 @@ packages:
   whatwg-url@5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
 
+<<<<<<< Updated upstream
   whatwg-url@7.1.0:
     resolution: {integrity: sha512-WUu7Rg1DroM7oQvGWfOiAK21n74Gg+T4elXEQYkOhtyLeWiJFoOGLXPKI/9gzIie9CtwVLm8wtw6YJdKyxSjeg==}
 
@@ -1438,6 +1608,12 @@ packages:
     resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
     engines: {node: '>=12'}
 
+=======
+  which@1.3.1:
+    resolution: {integrity: sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==}
+    hasBin: true
+
+>>>>>>> Stashed changes
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
@@ -1515,7 +1691,18 @@ snapshots:
 
   '@csstools/css-tokenizer@3.0.3': {}
 
+<<<<<<< Updated upstream
   '@discord-player/equalizer@7.1.0': {}
+=======
+  '@derhuerst/http-basic@8.2.4':
+    dependencies:
+      caseless: 0.12.0
+      concat-stream: 2.0.0
+      http-response-object: 3.0.2
+      parse-cache-control: 1.0.1
+
+  '@discord-player/equalizer@0.2.3': {}
+>>>>>>> Stashed changes
 
   '@discord-player/extractor@4.5.1':
     dependencies:
@@ -1781,6 +1968,8 @@ snapshots:
 
   '@types/node-os-utils@1.3.4': {}
 
+  '@types/node@10.17.60': {}
+
   '@types/node@22.5.2':
     dependencies:
       undici-types: 6.19.8
@@ -1803,6 +1992,7 @@ snapshots:
 
   acorn@8.12.1: {}
 
+<<<<<<< Updated upstream
   agent-base@7.1.3: {}
 
   ansi-regex@5.0.1: {}
@@ -1819,6 +2009,20 @@ snapshots:
 
   arg@4.1.3: {}
 
+=======
+  agent-base@6.0.2:
+    dependencies:
+      debug: 4.4.0
+    transitivePeerDependencies:
+      - supports-color
+
+  agent-base@7.1.3: {}
+
+  arg@4.1.3: {}
+
+  async@0.2.10: {}
+
+>>>>>>> Stashed changes
   asynckit@0.4.0: {}
 
   atomic-sleep@1.0.0: {}
@@ -1831,15 +2035,20 @@ snapshots:
 
   boolbase@1.0.0: {}
 
+<<<<<<< Updated upstream
   brace-expansion@2.0.1:
     dependencies:
       balanced-match: 1.0.2
+=======
+  buffer-from@1.1.2: {}
+>>>>>>> Stashed changes
 
   buffer@6.0.3:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
+<<<<<<< Updated upstream
   bundle-require@5.1.0(esbuild@0.25.2):
     dependencies:
       esbuild: 0.25.2
@@ -1847,11 +2056,14 @@ snapshots:
 
   cac@6.7.14: {}
 
+=======
+>>>>>>> Stashed changes
   call-bind-apply-helpers@1.0.2:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
 
+<<<<<<< Updated upstream
   chokidar@4.0.3:
     dependencies:
       readdirp: 4.1.2
@@ -1861,6 +2073,9 @@ snapshots:
       color-name: 1.1.4
 
   color-name@1.1.4: {}
+=======
+  caseless@0.12.0: {}
+>>>>>>> Stashed changes
 
   colorette@2.0.20:
     optional: true
@@ -1869,7 +2084,16 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
+<<<<<<< Updated upstream
   commander@4.1.1: {}
+=======
+  concat-stream@2.0.0:
+    dependencies:
+      buffer-from: 1.1.2
+      inherits: 2.0.4
+      readable-stream: 3.6.2
+      typedarray: 0.0.6
+>>>>>>> Stashed changes
 
   config@3.3.12:
     dependencies:
@@ -1924,11 +2148,19 @@ snapshots:
 
   discord-api-types@0.37.97: {}
 
+<<<<<<< Updated upstream
   discord-player-youtubei@1.4.3:
     dependencies:
       jsdom: 26.0.0
       tiny-typed-emitter: 2.1.0
       undici: 7.6.0
+=======
+  discord-player-youtubei@1.4.5:
+    dependencies:
+      jsdom: 26.0.0
+      tiny-typed-emitter: 2.1.0
+      undici: 7.7.0
+>>>>>>> Stashed changes
       youtubei.js: 13.3.0
     transitivePeerDependencies:
       - bufferutil
@@ -1936,14 +2168,22 @@ snapshots:
       - supports-color
       - utf-8-validate
 
+<<<<<<< Updated upstream
   discord-player@7.1.0(@discord-player/extractor@4.5.1)(mediaplex@0.0.9)(yaml@2.5.0):
+=======
+  discord-player@6.7.1(@discord-player/extractor@4.5.1)(ffmpeg-static@5.2.0):
+>>>>>>> Stashed changes
     dependencies:
       '@discord-player/equalizer': 7.1.0
       '@discord-player/extractor': 4.5.1
       '@discord-player/ffmpeg': 7.1.0
       '@discord-player/utils': 7.1.0
       '@web-scrobbler/metadata-filter': 3.2.0
+<<<<<<< Updated upstream
       discord-voip: 7.1.0(yaml@2.5.0)
+=======
+      discord-voip: 0.1.3(ffmpeg-static@5.2.0)
+>>>>>>> Stashed changes
       libsodium-wrappers: 0.7.14
       mediaplex: 0.0.9
     transitivePeerDependencies:
@@ -1955,14 +2195,25 @@ snapshots:
       - tsx
       - yaml
 
+<<<<<<< Updated upstream
   discord-voip@7.1.0(yaml@2.5.0):
+=======
+  discord-voip@0.1.3(ffmpeg-static@5.2.0):
+>>>>>>> Stashed changes
     dependencies:
       '@discord-player/ffmpeg': 7.1.0
       '@discord-player/opus': 7.1.0
       '@discord-player/utils': 7.1.0
       '@types/ws': 8.5.12
+<<<<<<< Updated upstream
       tsup: 8.4.0(typescript@5.5.4)(yaml@2.5.0)
       typescript: 5.5.4
+=======
+      discord-api-types: 0.37.93
+      prism-media: 1.3.5(ffmpeg-static@5.2.0)
+      tslib: 2.6.3
+      ws: 8.18.0
+>>>>>>> Stashed changes
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
       - '@swc/core'
@@ -2016,12 +2267,15 @@ snapshots:
       es-errors: 1.3.0
       gopd: 1.2.0
 
+<<<<<<< Updated upstream
   eastasianwidth@0.2.0: {}
 
   emoji-regex@8.0.0: {}
 
   emoji-regex@9.2.2: {}
 
+=======
+>>>>>>> Stashed changes
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
@@ -2029,6 +2283,11 @@ snapshots:
 
   entities@4.5.0: {}
 
+<<<<<<< Updated upstream
+=======
+  env-paths@2.2.1: {}
+
+>>>>>>> Stashed changes
   es-define-property@1.0.1: {}
 
   es-errors@1.3.0: {}
@@ -2044,6 +2303,7 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
+<<<<<<< Updated upstream
   esbuild@0.25.2:
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.25.2
@@ -2072,6 +2332,8 @@ snapshots:
       '@esbuild/win32-ia32': 0.25.2
       '@esbuild/win32-x64': 0.25.2
 
+=======
+>>>>>>> Stashed changes
   event-target-shim@5.0.1: {}
 
   events@3.3.0: {}
@@ -2095,16 +2357,32 @@ snapshots:
       node-domexception: 1.0.0
       web-streams-polyfill: 3.3.3
 
+  ffmpeg-static@5.2.0:
+    dependencies:
+      '@derhuerst/http-basic': 8.2.4
+      env-paths: 2.2.1
+      https-proxy-agent: 5.0.1
+      progress: 2.0.3
+    transitivePeerDependencies:
+      - supports-color
+
   file-type@16.5.4:
     dependencies:
       readable-web-to-node-stream: 3.0.2
       strtok3: 6.3.0
       token-types: 4.2.1
 
+<<<<<<< Updated upstream
   foreground-child@3.3.1:
     dependencies:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
+=======
+  fluent-ffmpeg@2.1.3:
+    dependencies:
+      async: 0.2.10
+      which: 1.3.1
+>>>>>>> Stashed changes
 
   form-data@4.0.2:
     dependencies:
@@ -2117,9 +2395,12 @@ snapshots:
     dependencies:
       fetch-blob: 3.2.0
 
+<<<<<<< Updated upstream
   fsevents@2.3.3:
     optional: true
 
+=======
+>>>>>>> Stashed changes
   function-bind@1.1.2: {}
 
   genius-lyrics@4.4.7:
@@ -2145,6 +2426,7 @@ snapshots:
       dunder-proto: 1.0.1
       es-object-atoms: 1.1.1
 
+<<<<<<< Updated upstream
   glob@10.4.5:
     dependencies:
       foreground-child: 3.3.1
@@ -2154,6 +2436,8 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
+=======
+>>>>>>> Stashed changes
   gopd@1.2.0: {}
 
   has-symbols@1.1.0: {}
@@ -2184,6 +2468,20 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+<<<<<<< Updated upstream
+=======
+  http-response-object@3.0.2:
+    dependencies:
+      '@types/node': 10.17.60
+
+  https-proxy-agent@5.0.1:
+    dependencies:
+      agent-base: 6.0.2
+      debug: 4.4.0
+    transitivePeerDependencies:
+      - supports-color
+
+>>>>>>> Stashed changes
   https-proxy-agent@7.0.6:
     dependencies:
       agent-base: 7.1.3
@@ -2210,8 +2508,11 @@ snapshots:
 
   inherits@2.0.4: {}
 
+<<<<<<< Updated upstream
   is-fullwidth-code-point@3.0.0: {}
 
+=======
+>>>>>>> Stashed changes
   is-potential-custom-element-name@1.0.1: {}
 
   isexe@2.0.0: {}
@@ -2221,17 +2522,48 @@ snapshots:
       node-fetch: 3.3.2
       unfetch: 5.0.0
 
+<<<<<<< Updated upstream
   jackspeak@3.4.3:
     dependencies:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
+=======
+>>>>>>> Stashed changes
   jintr@3.3.0:
     dependencies:
       acorn: 8.12.1
 
   joycon@3.1.1: {}
+
+  jsdom@26.0.0:
+    dependencies:
+      cssstyle: 4.3.0
+      data-urls: 5.0.0
+      decimal.js: 10.5.0
+      form-data: 4.0.2
+      html-encoding-sniffer: 4.0.0
+      http-proxy-agent: 7.0.2
+      https-proxy-agent: 7.0.6
+      is-potential-custom-element-name: 1.0.1
+      nwsapi: 2.2.20
+      parse5: 7.2.1
+      rrweb-cssom: 0.8.0
+      saxes: 6.0.0
+      symbol-tree: 3.2.4
+      tough-cookie: 5.1.2
+      w3c-xmlserializer: 5.0.0
+      webidl-conversions: 7.0.0
+      whatwg-encoding: 3.1.1
+      whatwg-mimetype: 4.0.0
+      whatwg-url: 14.2.0
+      ws: 8.18.0
+      xml-name-validator: 5.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
 
   jsdom@26.0.0:
     dependencies:
@@ -2338,6 +2670,7 @@ snapshots:
     dependencies:
       mime-db: 1.52.0
 
+<<<<<<< Updated upstream
   minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.1
@@ -2355,6 +2688,13 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
+=======
+  minimist@1.2.8:
+    optional: true
+
+  ms@2.1.3: {}
+
+>>>>>>> Stashed changes
   node-domexception@1.0.0: {}
 
   node-fetch@2.7.0:
@@ -2380,8 +2720,11 @@ snapshots:
 
   nwsapi@2.2.20: {}
 
+<<<<<<< Updated upstream
   object-assign@4.1.1: {}
 
+=======
+>>>>>>> Stashed changes
   on-exit-leak-free@2.1.2: {}
 
   once@1.4.0:
@@ -2389,12 +2732,17 @@ snapshots:
       wrappy: 1.0.2
     optional: true
 
+<<<<<<< Updated upstream
   package-json-from-dist@1.0.1: {}
+=======
+  parse-cache-control@1.0.1: {}
+>>>>>>> Stashed changes
 
   parse5@7.2.1:
     dependencies:
       entities: 4.5.0
 
+<<<<<<< Updated upstream
   path-key@3.1.1: {}
 
   path-scurry@1.11.1:
@@ -2402,6 +2750,8 @@ snapshots:
       lru-cache: 10.4.3
       minipass: 7.1.2
 
+=======
+>>>>>>> Stashed changes
   peek-readable@4.1.0: {}
 
   picocolors@1.1.1: {}
@@ -2447,6 +2797,7 @@ snapshots:
       sonic-boom: 4.0.1
       thread-stream: 3.1.0
 
+<<<<<<< Updated upstream
   pirates@4.0.7: {}
 
   postcss-load-config@6.0.1(yaml@2.5.0):
@@ -2454,10 +2805,17 @@ snapshots:
       lilconfig: 3.1.3
     optionalDependencies:
       yaml: 2.5.0
+=======
+  prism-media@1.3.5(ffmpeg-static@5.2.0):
+    optionalDependencies:
+      ffmpeg-static: 5.2.0
+>>>>>>> Stashed changes
 
   process-warning@4.0.0: {}
 
   process@0.11.10: {}
+
+  progress@2.0.3: {}
 
   pump@3.0.0:
     dependencies:
@@ -2501,6 +2859,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
+<<<<<<< Updated upstream
   rollup@4.38.0:
     dependencies:
       '@types/estree': 1.0.7
@@ -2527,6 +2886,8 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.38.0
       fsevents: 2.3.3
 
+=======
+>>>>>>> Stashed changes
   rrweb-cssom@0.8.0: {}
 
   safe-buffer@5.2.1: {}
@@ -2603,6 +2964,7 @@ snapshots:
       '@tokenizer/token': 0.3.0
       peek-readable: 4.1.0
 
+<<<<<<< Updated upstream
   sucrase@3.35.0:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.8
@@ -2623,12 +2985,17 @@ snapshots:
     dependencies:
       any-promise: 1.3.0
 
+=======
+  symbol-tree@3.2.4: {}
+
+>>>>>>> Stashed changes
   thread-stream@3.1.0:
     dependencies:
       real-require: 0.2.0
 
   tiny-typed-emitter@2.1.0: {}
 
+<<<<<<< Updated upstream
   tinyexec@0.3.2: {}
 
   tinyglobby@0.2.12:
@@ -2636,6 +3003,8 @@ snapshots:
       fdir: 6.4.3(picomatch@4.0.2)
       picomatch: 4.0.2
 
+=======
+>>>>>>> Stashed changes
   tldts-core@6.1.85: {}
 
   tldts@6.1.85:
@@ -2653,18 +3022,24 @@ snapshots:
 
   tr46@0.0.3: {}
 
+<<<<<<< Updated upstream
   tr46@1.0.1:
     dependencies:
       punycode: 2.3.1
 
+=======
+>>>>>>> Stashed changes
   tr46@5.1.0:
     dependencies:
       punycode: 2.3.1
 
+<<<<<<< Updated upstream
   tree-kill@1.2.2: {}
 
   ts-interface-checker@0.1.13: {}
 
+=======
+>>>>>>> Stashed changes
   ts-mixer@6.0.4: {}
 
   ts-node@10.9.2(@types/node@22.5.2)(typescript@5.5.4):
@@ -2687,6 +3062,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
+<<<<<<< Updated upstream
   tsup@8.4.0(typescript@5.5.4)(yaml@2.5.0):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.25.2)
@@ -2712,6 +3088,9 @@ snapshots:
       - supports-color
       - tsx
       - yaml
+=======
+  typedarray@0.0.6: {}
+>>>>>>> Stashed changes
 
   typescript@5.5.4: {}
 
@@ -2725,7 +3104,11 @@ snapshots:
 
   undici@6.19.8: {}
 
+<<<<<<< Updated upstream
   undici@7.6.0: {}
+=======
+  undici@7.7.0: {}
+>>>>>>> Stashed changes
 
   unfetch@5.0.0: {}
 
@@ -2741,8 +3124,11 @@ snapshots:
 
   webidl-conversions@3.0.1: {}
 
+<<<<<<< Updated upstream
   webidl-conversions@4.0.2: {}
 
+=======
+>>>>>>> Stashed changes
   webidl-conversions@7.0.0: {}
 
   whatwg-encoding@3.1.1:
@@ -2761,6 +3147,7 @@ snapshots:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
 
+<<<<<<< Updated upstream
   whatwg-url@7.1.0:
     dependencies:
       lodash.sortby: 4.7.0
@@ -2783,6 +3170,12 @@ snapshots:
       string-width: 5.1.2
       strip-ansi: 7.1.0
 
+=======
+  which@1.3.1:
+    dependencies:
+      isexe: 2.0.0
+
+>>>>>>> Stashed changes
   wrappy@1.0.2:
     optional: true
 
