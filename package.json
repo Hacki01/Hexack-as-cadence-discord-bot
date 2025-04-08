@@ -31,13 +31,8 @@
         "@discord-player/extractor": "^4.5.1",
         "bgutils-js": "^3.2.0",
         "config": "^3.3.12",
-<<<<<<< Updated upstream
         "discord-player": "^7.1.0",
-        "discord-player-youtubei": "1.4.3",
-=======
-        "discord-player": "^6.7.1",
         "discord-player-youtubei": "1.4.5",
->>>>>>> Stashed changes
         "discord.js": "^14.16.1",
         "dotenv": "^16.4.5",
         "ffmpeg-static": "^5.2.0",
