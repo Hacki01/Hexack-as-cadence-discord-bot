@@ -20,13 +20,13 @@ export const createPlayer = async ({ client, executionId }: CreatePlayerParams):
         });
 
         // First load the default extractors
-        await player.extractors.loadMulti([YoutubeiExtractor, SoundCloudExtractor, SpotifyExtractor]);
+        await player.extractors.loadMulti([YoutubeiExtractor, SpotifyExtractor]);
 
 
         // Load the Youtubei extractor with authentication if provided
-        await player.extractors.register(YoutubeiExtractor, {
+        /* await player.extractors.register(YoutubeiExtractor, {
             authentication: process.env.YT_EXTRACTOR_AUTH || '',
-        });
+        }); */
 
         // make player accessible from anywhere in the application
         // primarily to be able to use it in broadcastEval and other sharding methods
